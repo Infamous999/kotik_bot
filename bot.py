@@ -9,12 +9,11 @@ from pydub import AudioSegment
 ssl._create_default_https_context = ssl._create_unverified_context
 
 
-
 # Инициализация модели Whisper
 model = whisper.load_model("base")
 
 # Токен вашего Telegram бота
-TELEGRAM_TOKEN = "7446911137:AAEL-k3xq1SGVeOEtyILe04Vfk0i6iFWjG0"
+TELEGRAM_TOKEN = "7417915087:AAFpPo-YxpLP1y9gmVtTNVKh20S6o7pTR0o"
 
 
 # Функция для транскрипции аудио
